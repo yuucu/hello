@@ -12,7 +12,7 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 
-nmap z :call hello#helloworld()<CR>
+command! Hello :call hello#helloworld()<CR>
 
 
 " 退避していたユーザ設定を戻す
